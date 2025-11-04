@@ -1,5 +1,5 @@
 {% set name = "vois" %}
-{% set version = "1.0.39" %}
+{% set version = "1.0.40" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/vois-{{ version }}.tar.gz
-  sha256: a8cc70f8a89d7379005778d64f44c401618569438ead0bd51e2de61936cdd48a
+  sha256: 788a4144f70e3c981107f6505ae0893e998ae9980d6bf3dcfade54a60b0894cb
 
 build:
   noarch: python
